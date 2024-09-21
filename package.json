@@ -1,0 +1,16 @@
+{
+  "name": "r2uploader",
+  "version": "1.0.0",
+  "description": "A project to upload images to Cloudflare R2 using parallel workers.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "type":"module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1691.0",
+    "dotenv": "^16.4.5"
+  }
+}
